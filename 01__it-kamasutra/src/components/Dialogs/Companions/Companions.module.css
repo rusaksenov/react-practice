@@ -1,0 +1,74 @@
+.companions__list {
+    border-right: 1px solid rgb(4, 7, 48);
+    border-top: 1px solid rgb(4, 7, 48);
+    overflow-y: auto;
+    height: 100%;
+    transform: all .8s;
+}
+
+.companions {
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.search {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid rgb(4, 7, 48);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eee;
+    text-shadow: none;
+}
+
+.active {
+    background: rgb(48, 32, 117)
+}
+
+.active .companion__nikname {
+    color: #ffffff; 
+}
+
+/* .active .companions__item {
+    border-top: 1px solid rgb(4, 7, 48);
+} */
+
+.companion__avatar {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 60px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-right: 12px;
+}
+
+.companion__avatar img {
+    height: 100%;
+    width: 100%;
+}
+
+.companions__item {
+    display: flex;
+    border-bottom: 1px solid rgb(4, 7, 48);
+}
+
+.companions__element {
+    display: flex;
+    padding: 10px;
+    color: rgba(187, 186, 185, 0.842);
+}
+
+.descr {
+    font-size: 12px;
+    color: rgb(115, 115, 117); 
+}

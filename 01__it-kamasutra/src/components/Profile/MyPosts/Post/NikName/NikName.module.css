@@ -1,0 +1,57 @@
+.nik_name {
+    display: inline-grid;
+    grid-template-areas: "avatar nikname";
+    align-items: center;
+    grid-gap: 10px;     
+}
+
+.avatar {
+    position: relative;
+}
+
+.avatar div {
+    grid-area: avatar;
+    height: 52px;
+    width: 52px;
+    overflow: hidden;
+    border-radius: 26px;
+}
+
+.avatar img {
+    margin-top: -2px;
+    height: 120%;
+    width: 100%;
+}
+
+.avatar::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 55;
+    right: 50%;
+    bottom: 0%;
+    margin-right: -26px;
+    height: 12px;
+    width: 12px;
+    border-radius: 250px;
+    background: rgb(86, 231, 37);;
+    /* border: 2px solid  rgb(116, 231, 101); */
+
+} 
+
+.name_time * {
+    margin: 0;
+    padding: 0;
+}
+
+.name_time {
+    display: grid;
+    grid-area: nikname;
+    color: rgb(158, 79, 231);
+}
+
+.name_time span {
+    font-size: 12px;
+    /* margin-top: -16px; */
+    color: rgba(131, 90, 197, 0.658);
+}

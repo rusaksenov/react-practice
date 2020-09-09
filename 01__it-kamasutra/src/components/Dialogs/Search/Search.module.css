@@ -1,0 +1,9 @@
+.search input {
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(13, 20, 48);
+    border: none;
+    color: #9da2bc;
+    padding: 5px 10px;
+    margin: 0 25px;
+}

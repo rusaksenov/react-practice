@@ -1,0 +1,150 @@
+.item {
+  color: greenyellow;
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+.content {
+	grid-area: c;
+	background-color: cornflowerblue;
+}
+
+.avatar {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+.avatar img {
+	margin-top: -2px;
+	height: 120%;
+	width: 100%;
+}
+
+.post {
+	font-size: 14px;
+	border-radius: 16px;
+	overflow: hidden;
+	background-color: rgb(42, 43, 75);
+	width: 80%;
+	margin: auto;
+	padding: 10px 15px;
+	margin: 15px auto;
+	color: rgb(134, 140, 214);
+}
+
+.text_post {
+	padding: 15px 0;
+	font-size: 16px;
+}
+
+.option {
+	display: grid;
+	grid-template-areas: 'like bookmarks share';
+	grid-template-rows: 50px 1fr;
+	grid-template-columns: 2fr 2fr 10fr;
+}
+
+.like span,
+.share span,
+.bookmarks span {
+	position: absolute;
+	font-size: 20px;
+	right: -27px;
+	text-align: left;
+	color: var(--color-fialet);
+}
+
+.like {
+	position: relative;
+	grid-area: like;
+	background: rgb(216, 108, 108);
+	border: none;
+	border-radius: 150px;
+	height: 40px;
+	width: 40px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.8s;
+	cursor: pointer;
+}
+
+.icon_like {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.like span {
+	color: rgb(216, 108, 108);
+}
+
+.like:hover {
+	background: rgb(236, 76, 76);
+	box-shadow: 0 0 5px 2px rgb(236, 76, 76);
+}
+
+.bookmarks {
+	position: relative;
+	grid-area: bookmarks;
+	background: rgb(135, 49, 235);
+	border: none;
+	border-radius: 150px;
+	height: 40px;
+	width: 40px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.8s;
+	cursor: pointer;
+}
+
+.icon_bookmarks {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.bookmarks span {
+	color: rgb(144, 63, 236);
+}
+
+.bookmarks:hover {
+	background: rgb(160, 68, 246);
+	box-shadow: 0 0 5px 2px rgb(129, 0, 249);
+}
+
+.share {
+	position: relative;
+	grid-area: share;
+	background: rgb(114, 216, 207);
+	border: none;
+	border-radius: 150px;
+	height: 40px;
+	width: 40px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.8s;
+	cursor: pointer;
+}
+
+.share span {
+	color: rgb(114, 216, 207);
+}
+
+.share:hover {
+	background: rgb(16, 226, 209);
+	box-shadow: 0 0 5px 2px rgb(16, 226, 209);
+}
+
+.post_header {
+	display: flex;
+	align-items: center;
+}
+

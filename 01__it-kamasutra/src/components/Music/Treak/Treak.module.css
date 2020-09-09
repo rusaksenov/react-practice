@@ -1,0 +1,70 @@
+
+.music__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(73, 60, 156, 0.548);
+	color: rgb(8, 13, 59);
+	padding: 10px;
+	border-radius: 8px;
+	/* margin: 2px; */
+	transform: all .8s;
+	cursor: pointer;
+}
+/* 
+.music__item:hover {
+	background-color: rgb(23, 15, 53);
+} */
+
+.face_music {
+	display: flex;
+	justify-content: center;
+}
+
+.treak__img {
+	height: 40px;
+	width: 40px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.treak__img img {
+	height: 100%;
+	width: 100%;
+}
+
+.treak__info {
+	margin-left: 6px;
+}
+
+.treak__name {
+	font-weight: 500;
+}
+
+.treak__author {
+	font-size: 12px;
+	background-color: rgb(41, 10, 90);
+	color: rgb(86, 88, 175);
+	padding: 2px 6px;
+	width: fit-content;
+	border-radius: 4px;
+	margin: 2px 0;
+}
+
+.play {
+	height: 40px;
+	width: 40px;
+	background: rgba(72, 72, 165, 0.267);
+	padding: 5px 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	justify-self: end;
+}
+
+.play svg {
+	height: 25px;
+	width: 25px;
+}
+

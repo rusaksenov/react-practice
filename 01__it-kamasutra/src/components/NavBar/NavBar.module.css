@@ -1,0 +1,57 @@
+.nav {
+	grid-area: nav;
+	/* border-radius: 16px; */
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	background-color: rgb(23, 30, 58);
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0 0 3px 1px #03112b;
+	height: 100vh;
+	width: 100%;
+}
+
+.item a {
+	display: block;
+	padding: 10px 25px;
+	text-decoration: none;
+	cursor: pointer;
+	color: rgb(78, 76, 206);
+	font-size: 18px;
+}
+
+.item:hover {
+	background-color: rgb(34, 43, 94);
+	color: rgb(119, 108, 238);
+}
+
+.item:hover a {
+	color: var(--color-blue);
+	text-shadow: 0 0 10px var(--color-blue);
+	outline: none;
+}
+
+a:hover,
+a:active,
+a:link,
+a:visited {
+	outline: none;
+}
+
+.nav {
+	/* border-radius: 16px; */
+	padding: 10px 15px;
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	background-color: rgb(23, 30, 58);
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0 0 3px 1px #03112b;
+}
+
+.item a.active {
+	color: rgb(233, 90, 97);
+	font-weight: 600;
+}
+
+.item a.active:hover {
+	text-shadow: 0 0 10px rgb(233, 90, 97);
+}

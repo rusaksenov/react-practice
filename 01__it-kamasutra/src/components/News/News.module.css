@@ -1,0 +1,49 @@
+.content {
+	grid-area: content;
+	background-color: rgb(23, 30, 58);
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	box-shadow: 0 0 3px 1px #03112b;
+	color: rgb(78, 76, 206);
+	border-radius: 16px;
+	/* padding: 0 0 10px 0; */
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	box-shadow: 0 0 3px 1px #03112b;
+	overflow: hidden;
+	width: 100%;
+}
+
+h3 {
+    color: rgb(78, 76, 206);
+    margin: 25px auto 20px auto;
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, с 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ поддерживается в IE, Safari, и Firefox 3.1.*/
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+.imgPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 60%;
+    height: 90%;
+    overflow: hidden;
+    margin: 10px auto 0;
+}
+
+.imgPost img {
+    height: 100%;
+    width: 100%;
+}

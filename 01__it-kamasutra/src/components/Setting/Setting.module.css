@@ -1,0 +1,18 @@
+.content {
+	grid-area: content;
+	background-color: rgb(23, 30, 58);
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	box-shadow: 0 0 3px 1px #03112b;
+	color: rgb(78, 76, 206);
+	border-radius: 16px;
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	box-shadow: 0 0 3px 1px #03112b;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+}
+
+.content__item {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 8px 18px;
+}

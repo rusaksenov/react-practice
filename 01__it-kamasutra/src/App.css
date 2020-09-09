@@ -1,0 +1,90 @@
+
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-areas: "h h" "n c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+/messages
+/dialogs
+
+/dialogs/3
+/dialogs/2
+
+*/
+=======
+:root {
+	--color-dark: #1f1f1f;
+	--color-white: #EBEBEB;
+	--color-fibuttonet: #6A29F4;
+	--color-red: #FE282B;
+	--color-blue: #28F1FE;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: rgb(26, 150, 150);
+	transition: buttonl .8s;
+}
+
+a:hover {
+	color: var(--color-blue);
+	text-shadow: 0 0 10px var(--color-blue);
+}
+
+body {
+	background-color: rgb(26, 36, 94);
+}
+
+.app-wrapper {
+	/* padding: 30px 10vw; */
+	display: grid;
+	grid-template-areas: "header header header" "nav content content";
+	/* grid-template-rows: 60p 1fr; */
+	grid-template-columns: 2fr 10fr;
+	grid-gap: 20px;
+}
+
+.app-wrapper__content {
+	padding: 20px 0;
+	max-height: 100vh;
+	/* overflow: hidden; */
+}
+
+.header, .content {
+	border-radius: 16px;
+	padding: 10px 15px;
+	-webkit-box-shadow: 0 0 3px 1px #03112b;
+	box-shadow: 0 0 3px 1px #03112b;
+}
+
+button:hover,
+button:active,
+button:link,
+button:visited {
+	outline: none;
+}

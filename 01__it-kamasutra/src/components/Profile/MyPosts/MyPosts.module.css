@@ -1,0 +1,45 @@
+.postsBlock {
+    padding: 10px;
+}
+
+.posts {
+    margin-top: 10px;
+}
+=======
+.content * {
+    box-sizing: border-box;
+}
+
+.content {
+    grid-area: content;
+}
+
+
+
+.imgPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 60%;
+    height: 90%;
+    overflow: hidden;
+    margin: 10px auto 0;
+}
+
+.imgPost img {
+    height: 100%;
+    width: 100%;
+}
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, с 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ поддерживается в IE, Safari, и Firefox 3.1.*/
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
